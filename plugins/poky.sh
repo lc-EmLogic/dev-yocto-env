@@ -141,7 +141,7 @@ poky() {
                         ${BUILD_DIR}"
             ;;
         *)
-            echo "Usage: poky {shell|run|logs|toaster} [args]"
+            echo "Usage: poky {shell|run|logs|toaster} [dir] [args]"
             return 1
             ;;
     esac
